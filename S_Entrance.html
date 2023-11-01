@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="S_Entrance.css">
+    <title>Вход - Socitect</title>
+</head>
+<body>
+    <div class="container">
+        <form action="/login" method="post">
+            <h2>Вход в аккаунт</h2>
+            <div class="form-group">
+                <label for="username">Имя пользователя или Email:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Войти</button>
+            <button1 onclick="document.location='S_Reg.html'">Ещё нет аккаунта</button1>
+        </form>
+    </div>
+</body>
+</html>
