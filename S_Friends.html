@@ -16,6 +16,7 @@
                 <li><a href="S_Profile.html">Профиль</a></li>
                 <li><a href="S_Mesenger.html">Сообщения</a></li>
                 <li><a href="S_Friends.html">Друзья</a></li>
+                <li><a class="settings-button" onclick="toggleSettings()">Настройки</a></li>
             </ul>
         </nav>
     </header>
@@ -31,9 +32,15 @@
                 <h3>USER_2</h3>
             </div>
         </div>
+        <div class="settings-panel" id="settingsPanel">
+            <button class="close-button" onclick="toggleSettings()">Закрыть</button>
+            <button><a href="Photo_pr.html">Редактировать фото профиля</a></button>
+            <button><a href="Name_pr.html">Редактировать имя профиля</a></button>
+        </div>
     </main>
     <footer>
         <p>&copy; 2023 Socitect</p>
     </footer>
 </body>
+<script src="Socitect_setting.js"></script>
 </html>

@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def login_form():
-    return render_template('login.html')
+    return render_template('S_Entrance.html')
 
 @app.route('/login', methods=['POST'])
 def login():

@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.edit-profile-container {
+    text-align: center;
+}
+
+.edit-profile-container h2 {
+    font-size: 24px;
+}
+
+.profile-preview {
+    margin: 20px 0;
+}
+
+.profile-preview img {
+    width: 150px; /* Выберите размер предварительного просмотра фото профиля */
+    height: 150px; /* Выберите размер предварительного просмотра фото профиля */
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.save-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.save-button:hover {
+    background-color: #0056b3;
+}
+
+.ext a {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.ext:hover {
+    background-color: #0056b3;
+}
